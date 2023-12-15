@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ruleset name="Diagnostics"
+         xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+    <description>
+        Contains rules for Guillaume
+    </description>
+
+    <!-- Name needs to be used in XML file and ruleset -->
+    <rule name="CustomRuleInJava"
+          language="java"
+          since="6.55.0"
+          message="Rude words detection"
+          class="org.gmi.pmd.rules.ACustomRuleThatPreventRudeLanguage"
+          externalInfoUrl="">
+        <description>
+            This is just blabla !!!
+        </description>
+        <priority>3</priority>
+    </rule>
+
+</ruleset>
